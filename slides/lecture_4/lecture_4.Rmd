@@ -1,0 +1,19 @@
+---
+title: "Tími 4 - Stýrisetningar og loop-ur"
+author: "Viðar Ingason"
+output:
+  ioslides_presentation:
+    widescreen: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(rprojroot)
+
+root <- is_rstudio_project
+
+options(scipen = 999)
+```
+
